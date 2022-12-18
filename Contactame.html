@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Contactame⚽️</title>
+</head>
+<body>
+    <h1>DATOS DE CONTACTO</h1>
+     <p><a href="tel:+49.157.0156">cel. 3107843314</a></p>
+     <p><a href="mailto:nowhere@mozilla.org">e-mail. ronald.rodriguezd@gmail.com</a></p>
+     <p><a href="https://www.instagram.com/ronald.rodriguezd/">instagram. ronald.rodriguezd</a>
+        <!--input imagene para agregar la imagen de instagram-->
+        <input type="image" src="instagramlogo.png" alt="" height="20" ></p>
+     
+    <hr>
+    <!--enctype="text/plain" esto quiere decir que los datos del formulario hace referencia
+         a charset="UTF-8" que estan codificados en texto sin formato, se borra el atributo class, y 
+         se agrega el atributo enctype="text/plain"
+    -->
+     <form action="mailto:ronald.rodriguezd@gmail.com" method="post" enctype="text/plain">
+        <label>Tu nombre:</label>
+        <input type="text" name="tuNombre" value=""><br>
+        <!--
+        <label>Desea suscribirse a la lista de correo electronico?</label>
+        <input type="checkbox" name="" id="">-->
+        <label>Tu email:</label>
+        <input type="email" name="tuEmail" id=""><br>
+        <label>Tu mensaje:</label><br>
+        <textarea name="TuMensaje" id="" cols="30" rows="10"></textarea><br>
+        <input type="submit" name="Enviar">
+     </form>
+</body>
+</html>
